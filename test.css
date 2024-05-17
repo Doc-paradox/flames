@@ -1,0 +1,21 @@
+.main-container{
+    background-color: maroon;
+    width: 25%;
+    height: 10rem;
+    color: black;
+}
+
+.sub-container{
+    background-color: white;
+    width: 7%;
+    height: 4rem;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.msg{
+    text-align: center;
+    top: 10;
+}
+

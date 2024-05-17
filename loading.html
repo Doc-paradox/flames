@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url("assets/bg2.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        
+       .loading-container {
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+       .loading-bg {
+            padding-top: 65px;
+            padding-left: 10rem;
+            /* justify-content: center;
+            align-content: center; */
+            background-color: #f26d91;
+            min-width: 40rem;
+            height: 25rem;
+            border-radius: 5%;
+            opacity: 0.8; 
+             
+        }
+        
+       .loading-bg-img {
+            width: 18rem;
+            height: 12rem;
+            margin-top:5%; 
+            margin-left: 3%;
+        }
+
+        #loading-bar{
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+        
+        progress {
+            width: 200px;
+            height: 20px;
+            border-radius: 10px;
+            border: none;
+            background-color: #ccc;
+            padding: 0;
+        }
+        
+        progress::-webkit-progress-bar {
+            background-color: #ccc;
+        }
+        
+        progress::-webkit-progress-value {
+            background-color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-container">
+        <div class="loading-bg">
+            <img class="loading-bg-img" src="assets/load-img.jpg" alt="Loading..."><br>
+            <progress id="loading-bar" value="0" max="100"></progress>
+        </div>
+    </div>
+    <!-- <script>
+        const progressBar = document.getElementById('loading-bar');
+        let progress = 0;
+        const interval = setInterval(() => {
+            progress += 10;
+            progressBar.value = progress;
+            if (progress >= 100) {
+                clearInterval(interval);
+                // Redirect to the next page
+                window.location.href = 'result.html';
+            }
+        }, 300);
+    </script> -->
+</body>
+</html>

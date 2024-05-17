@@ -1,0 +1,61 @@
+.index-body{
+    padding:0;
+    margin: 0;
+    background-image: url("assets/bg1.gif");
+}
+.container{
+    align-items: center ;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-img{
+    position: absolute;
+    margin: 10%;
+}
+
+.cat-center-img{
+    height:250px;
+    width: 25rem;
+}
+
+.text-c{
+    text-align: center;
+    color: #981D26;
+}
+
+.form-input-container{
+    margin-bottom: 10%; 
+    font-size: 20px;
+    color: #981D26;
+    font-weight: 20px;
+}
+
+.input-names{
+    margin-top: 500px;
+}
+
+.form-input,.form-input1{
+    min-width: 20rem;
+    height: 40px;
+    border-radius: 5%;
+}
+
+.form-input1{
+    margin-top: 5%;
+}
+
+.btn{
+    background-color: pink;
+    width: 150px;
+    height: 2rem;
+    text-align: center;
+    border-radius: 10rem;
+    font-size: medium;
+}
+
+.heart-icon{
+    color: #f26d91;
+    margin-right: 6%;   
+}
+
